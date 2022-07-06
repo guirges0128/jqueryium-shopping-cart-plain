@@ -36,7 +36,7 @@ $(document).ready(function() {
         if (!newItem || isNaN(newPrice)) {
             alert('You must enter both item name and unit price to continue!');
         } else {
-            $('#lastRow').before('<div class="row item"><div class="item-name col-xs-3" id="item">' + newItem + '</div><div class="item-price col-xs-3">$' + newPrice + '</div><div class="item-qty col-xs-3" id="cost"><input type="number"></div><div class="col-xs-1"><button class="btn btn-danger">Remove</button></div><div class="sub-total col-xs-2">$--.--</div></div>');
+            $('#lastRow').before('<div class="row item"><div class="item-name col-xs-3" id="item" style="color: #fff">' + newItem + '</div><div class="item-price col-xs-3">$' + newPrice + '</div><div class="item-qty col-xs-3" id="cost"><input type="number" placeholder="QTY"></div><div class="col-xs-1"><button class="btn btn-danger">Remove</button></div><div class="sub-total col-xs-2">$--.--</div></div>');
         }
         $('#lastRow').find('#item', '#price').val('');
     }

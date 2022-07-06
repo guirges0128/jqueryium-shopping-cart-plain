@@ -19,68 +19,69 @@
     <link href="css/custom.css" rel="stylesheet" />
   </head>
   <body>
+  <div id="overlay">
     <section class="container" id="item-list">
       <h1>Shopping Cart</h1>
       <div class="row item">
         <div class="item-name col-xs-3">Burger</div>
         <div class="item-price col-xs-3">$9.00</div>
-        <div class="item-qty col-xs-3"><input type="number"></div>
+        <div class="item-qty col-xs-3"><input type="number" placeholder="QTY"></div>
         <div class="col-xs-1"><button class="btn btn-danger">Remove</button></div>
         <div class="sub-total col-xs-2">$--.--</div>
       </div>
       <div class="row item">
         <div class="item-name col-xs-3">Wings</div>
         <div class="item-price col-xs-3">$15.00</div>
-        <div class="item-qty col-xs-3"><input type="number"></div>
+        <div class="item-qty col-xs-3"><input type="number" placeholder="QTY"></div>
         <div class="col-xs-1"><button class="btn btn-danger">Remove</button></div>
         <div class="sub-total col-xs-2">$--.--</div>
       </div>
       <div class="row item">
         <div class="item-name col-xs-3">Salad</div>
         <div class="item-price col-xs-3">$6.00</div>
-        <div class="item-qty col-xs-3"><input type="number"></div>
+        <div class="item-qty col-xs-3"><input type="number" placeholder="QTY"></div>
         <div class="col-xs-1"><button class="btn btn-danger">Remove</button></div>
         <div class="sub-total col-xs-2">$--.--</div>
       </div>
       <div class="row item">
         <div class="item-name col-xs-3">Pasta</div>
         <div class="item-price col-xs-3">$10.00</div>
-        <div class="item-qty col-xs-3"><input type="number"></div>
+        <div class="item-qty col-xs-3"><input type="number" placeholder="QTY"></div>
         <div class="col-xs-1"><button class="btn btn-danger">Remove</button></div>
         <div class="sub-total col-xs-2">$--.--</div>
       </div>
       <div class="row item">
         <div class="item-name col-xs-3">Pizza</div>
         <div class="item-price col-xs-3">$13.00</div>
-        <div class="item-qty col-xs-3"><input type="number"></div>
+        <div class="item-qty col-xs-3"><input type="number" placeholder="QTY"></div>
         <div class="col-xs-1"><button class="btn btn-danger">Remove</button></div>
         <div class="sub-total col-xs-2">$--.--</div>
       </div>
       <div class="row item">
         <div class="item-name col-xs-3">Soda</div>
         <div class="item-price col-xs-3">$3.00</div>
-        <div class="item-qty col-xs-3"><input type="number"></div>
+        <div class="item-qty col-xs-3"><input type="number" placeholder="QTY"></div>
         <div class="col-xs-1"><button class="btn btn-danger">Remove</button></div>
         <div class="sub-total col-xs-2">$--.--</div>
       </div>
       <div class="row item">
         <div class="item-name col-xs-3">Beer</div>
         <div class="item-price col-xs-3">$5.00</div>
-        <div class="item-qty col-xs-3"><input type="number"></div>
+        <div class="item-qty col-xs-3"><input type="number" placeholder="QTY"></div>
         <div class="col-xs-1"><button class="btn btn-danger">Remove</button></div>
         <div class="sub-total col-xs-2">$--.--</div>
       </div>
       <div class="row item">
         <div class="item-name col-xs-3">Wine</div>
         <div class="item-price col-xs-3">$7.00</div>
-        <div class="item-qty col-xs-3"><input type="number"></div>
+        <div class="item-qty col-xs-3"><input type="number" placeholder="QTY"></div>
         <div class="col-xs-1"><button class="btn btn-danger">Remove</button></div>
         <div class="sub-total col-xs-2">$--.--</div>
       </div>
       <div class="row item" id="lastRow">
-        <div class="new-item col-xs-3"><input type="text" id="item"></div>
-        <div class="new-qty col-xs-3"><input type="number" id="price"></div>
-        <div class="col-xs-2"><button id="addProduct">Add</button></div>
+        <div class="new-item col-xs-3"><input type="text" id="item" placeholder="Item"></div>
+        <div class="new-qty col-xs-3"><input type="number" id="price" placeholder="$0.00"></div>
+        <div class="col-xs-2"><button class="btn btn-primary" id="addProduct">Add</button></div>
       </div>
     </section>
     <div class="container">
@@ -89,6 +90,7 @@
         <h1 id="totalPrice">$--.--</h1>
       </div>
     </div>
+  </div>
 
     </div>
   </body>
